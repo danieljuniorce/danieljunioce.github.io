@@ -16,7 +16,7 @@ const HomeAnimation = () => {
       loop
       mode="normal"
       src="https://assets3.lottiefiles.com/temp/lf20_KQd5BP.json"
-      style={{ width: "300px", height: "300px" }}
+      style={{ width: "400px", height: "400px" }}
     ></lottie-player>
   );
 };
