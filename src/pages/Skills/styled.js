@@ -28,3 +28,9 @@ export const Skills = styled.button`
   box-shadow: 0 0 12px 0 rgba(255, 255, 255, 0.02);
   margin-bottom: 5px;
 `;
+
+export const Animation = styled.span`
+  @media (max-width: 762px) {
+    display: none;
+  }
+`;

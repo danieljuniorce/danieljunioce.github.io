@@ -1,17 +1,26 @@
 import React, { useState, useEffect } from "react";
-import { Container, ImgUser, TextBody, Title, ContentUser } from "./styled";
+import {
+  Container,
+  ImgUser,
+  TextBody,
+  Title,
+  ContentUser,
+  Animation
+} from "./styled";
 
 import api from "../../services/api";
 
 const SobreAnimation = () => {
   return (
-    <lottie-player
-      autoplay
-      loop
-      mode="normal"
-      src="https://assets5.lottiefiles.com/packages/lf20_emIAZ3.json"
-      style={{ width: "500px", height: "500px" }}
-    ></lottie-player>
+    <Animation>
+      <lottie-player
+        autoplay
+        loop
+        mode="normal"
+        src="https://assets5.lottiefiles.com/packages/lf20_emIAZ3.json"
+        style={{ width: "500px", height: "500px" }}
+      ></lottie-player>
+    </Animation>
   );
 };
 

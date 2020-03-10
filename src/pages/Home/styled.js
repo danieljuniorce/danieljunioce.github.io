@@ -6,6 +6,17 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 762px) {
+    flex-direction: column;
+    margin: 0;
+  }
+`;
+
+export const Animation = styled.span`
+  @media (max-width: 762px) {
+    display: none;
+  }
 `;
 
 export const ContentBody = styled.div`

@@ -16,6 +16,11 @@ export const NavNav = styled.ul`
 export const NavItem = styled.li`
   font-size: 19pt;
   padding: 10px;
+
+  @media (max-width: 762px) {
+    font-size: 16pt;
+    padding: 5px;
+  }
 `;
 
 export const NavLink = styled.a`

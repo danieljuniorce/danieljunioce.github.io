@@ -6,18 +6,21 @@ import {
   Title,
   SubTitle,
   ImgIcons,
-  ContentIcons
+  ContentIcons,
+  Animation
 } from "./styled";
 
 const HomeAnimation = () => {
   return (
-    <lottie-player
-      autoplay
-      loop
-      mode="normal"
-      src="https://assets3.lottiefiles.com/temp/lf20_KQd5BP.json"
-      style={{ width: "400px", height: "400px" }}
-    ></lottie-player>
+    <Animation>
+      <lottie-player
+        autoplay
+        loop
+        mode="normal"
+        src="https://assets3.lottiefiles.com/temp/lf20_KQd5BP.json"
+        style={{ width: "400px", height: "400px" }}
+      ></lottie-player>
+    </Animation>
   );
 };
 

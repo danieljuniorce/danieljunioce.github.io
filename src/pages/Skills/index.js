@@ -1,15 +1,23 @@
 import React from "react";
 
-import { Container, ContentSkills, Skills, TitleSkills } from "./styled";
+import {
+  Container,
+  ContentSkills,
+  Skills,
+  TitleSkills,
+  Animation
+} from "./styled";
 const SkillsAnimation = () => {
   return (
-    <lottie-player
-      autoplay
-      loop
-      mode="normal"
-      src="https://assets4.lottiefiles.com/packages/lf20_2UeWRZ.json"
-      style={{ width: "500px", height: "500px" }}
-    ></lottie-player>
+    <Animation>
+      <lottie-player
+        autoplay
+        loop
+        mode="normal"
+        src="https://assets4.lottiefiles.com/packages/lf20_2UeWRZ.json"
+        style={{ width: "500px", height: "500px" }}
+      ></lottie-player>
+    </Animation>
   );
 };
 

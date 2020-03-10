@@ -16,6 +16,10 @@ export const StructRepos = styled.div`
   gap: 20px;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 80px;
+
+  @media (max-width: 762px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const ContentRepos = styled.div`
