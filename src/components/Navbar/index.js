@@ -14,10 +14,10 @@ const Navbar = () => {
             <NavLink href="/sobre">Sobre</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/portfolio">Portfolio</NavLink>
+            <NavLink href="/repositorios">Repositorios</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/blog">Blog</NavLink>
+            <NavLink href="/skills">Habilidades</NavLink>
           </NavItem>
         </NavNav>
       </Nav>
