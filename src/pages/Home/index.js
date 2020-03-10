@@ -8,15 +8,24 @@ import {
   ImgIcons,
   ContentIcons
 } from "./styled";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
+
+const HomeAnimation = () => {
+  return (
+    <lottie-player
+      autoplay
+      loop
+      mode="normal"
+      src="https://assets3.lottiefiles.com/temp/lf20_KQd5BP.json"
+      style={{ width: "300px", height: "300px" }}
+    ></lottie-player>
+  );
+};
 
 const HomePage = () => {
   return (
     <>
       <Container>
-        <Navbar />
-
+        <HomeAnimation />
         <ContentBody>
           <Title>Daniel Junior</Title>
           <SubTitle>@danieljuniorce</SubTitle>
@@ -39,8 +48,6 @@ const HomePage = () => {
             </ImgIcons>
           </ContentIcons>
         </ContentBody>
-
-        <Footer />
       </Container>
     </>
   );
